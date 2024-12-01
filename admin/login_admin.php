@@ -53,7 +53,7 @@
 
     <!-- form -->
     <main class="form-signin">
-        <form action="proses_login_karyawan.php" method="post">
+        <form action="proses_login_admin.php" method="post">
             <div class="form-floating mb-4">
             <input type="text" class="form-control text" id="floatingUsername" name="username" placeholder="username" required="">
                 <label for="floatingInput">username</label>
