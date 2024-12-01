@@ -51,9 +51,9 @@
 <body>
     <h1>login admin</h1>
 
-    <!-- Form -->
+    <!-- form -->
     <main class="form-signin">
-        <form action="proses_login.php" method="post">
+        <form action="proses_login_karyawan.php" method="post">
             <div class="form-floating mb-4">
             <input type="text" class="form-control text" id="floatingUsername" name="username" placeholder="username" required="">
                 <label for="floatingInput">username</label>
