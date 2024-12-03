@@ -50,6 +50,11 @@
             <a href="admin/login_admin.php" target="_blank">
                 <button class="btn btn-primary">admin</button>
             </a>
+
+            <a href="manajer/login_manajer.php" target="_blank">
+                <button class="btn btn-primary">manajer</button>
+            </a>
+
             <a href="karyawan/login_karyawan.php" target="_blank">
                 <button class="btn btn-primary">karyawan</button>
             </a>
