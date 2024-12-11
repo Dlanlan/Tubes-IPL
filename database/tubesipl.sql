@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 03, 2024 at 08:56 AM
+-- Generation Time: Dec 11, 2024 at 01:38 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -38,7 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`) VALUES
-(1, 'admin', 'admin');
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3');
 
 -- --------------------------------------------------------
 
@@ -63,7 +63,7 @@ CREATE TABLE `karyawan` (
 --
 
 INSERT INTO `karyawan` (`id_karyawan`, `username`, `password`, `nama`, `tmp_tgl_lahir`, `jenkel`, `agama`, `alamat`, `no_tel`) VALUES
-(1, 'user', 'user', 'nama karyawan', 'tempat tanggal lahir', 'jenis kelamin', 'agama', 'alamat', 'nomor telepon');
+(1, 'user', 'ee11cbb19052e40b07aac0ca060c23ee', 'nama karyawan', 'tempat tanggal lahir', 'jenis kelamin', 'agama', 'alamat', 'nomor telepon');
 
 --
 -- Indexes for dumped tables
