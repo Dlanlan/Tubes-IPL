@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 11, 2024 at 01:38 AM
+-- Generation Time: Dec 15, 2024 at 09:22 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -51,19 +51,17 @@ CREATE TABLE `karyawan` (
   `username` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL,
   `nama` varchar(255) NOT NULL,
-  `tmp_tgl_lahir` varchar(255) NOT NULL,
-  `jenkel` varchar(255) NOT NULL,
-  `agama` varchar(255) NOT NULL,
   `alamat` text NOT NULL,
-  `no_tel` varchar(18) NOT NULL
+  `jabatan` varchar(50) NOT NULL,
+  `gaji` float NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `karyawan`
 --
 
-INSERT INTO `karyawan` (`id_karyawan`, `username`, `password`, `nama`, `tmp_tgl_lahir`, `jenkel`, `agama`, `alamat`, `no_tel`) VALUES
-(1, 'user', 'ee11cbb19052e40b07aac0ca060c23ee', 'nama karyawan', 'tempat tanggal lahir', 'jenis kelamin', 'agama', 'alamat', 'nomor telepon');
+INSERT INTO `karyawan` (`id_karyawan`, `username`, `password`, `nama`, `alamat`, `jabatan`, `gaji`) VALUES
+(1, 'user', 'ee11cbb19052e40b07aac0ca060c23ee', 'nama karyawan', 'alamat', 'karyawan tetap', 1000000);
 
 --
 -- Indexes for dumped tables
