@@ -13,11 +13,10 @@ if ($ketemu > 0) {
     $_SESSION['id_karyawan'] = $b['id_karyawan'];
     $_SESSION['username'] = $b['username'];
     $_SESSION['nama'] = $b['nama'];
-    $_SESSION['tmp_tgl_lahir'] = $b['tmp_tgl_lahir'];
-    $_SESSION['jenkel'] = $b['jenkel'];
-    $_SESSION['agama'] = $b['agama'];
     $_SESSION['alamat'] = $b['alamat'];
-    $_SESSION['no_tel'] = $b['no_tel'];
+    $_SESSION['jabatan'] = $b['jabatan'];
+    $_SESSION['agama'] = $b['agama'];
+    $_SESSION['gaji'] = $b['gaji'];
 
     header("location: karyawan.php?m=awal");
 } else {
