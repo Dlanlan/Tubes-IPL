@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 22, 2024 at 08:30 AM
+-- Generation Time: Dec 22, 2024 at 08:47 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -106,7 +106,7 @@ CREATE TABLE `karyawan` (
 --
 
 INSERT INTO `karyawan` (`id_karyawan`, `nama`, `nomor_telepon`, `gaji`, `username`, `password`, `kesempatan_cuti`, `created_at`) VALUES
-(2001, 'ridho', '081111111111', 5000000.00, 'ee11cbb19052e40b07aac0ca060c23ee', 'user', 12, '2024-12-22 07:28:31');
+(2001, 'ridho', '081111111111', 5000000.00, 'user', 'ee11cbb19052e40b07aac0ca060c23ee', 12, '2024-12-22 07:28:31');
 
 -- --------------------------------------------------------
 
